@@ -75,7 +75,6 @@ public class Asteroid : MonoBehaviour
 
         // Set a random trajectory
         half.SetTrajectory(Random.insideUnitCircle.normalized);
-
         return half;
     }
 

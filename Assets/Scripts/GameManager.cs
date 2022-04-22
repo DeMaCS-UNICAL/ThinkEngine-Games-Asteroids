@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
     public void NewGame()
     {
         Asteroid[] asteroids = FindObjectsOfType<Asteroid>();
-
         for (int i = 0; i < asteroids.Length; i++) {
             Destroy(asteroids[i].gameObject);
         }

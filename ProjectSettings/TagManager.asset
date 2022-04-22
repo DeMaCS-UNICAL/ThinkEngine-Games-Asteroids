@@ -7,6 +7,8 @@ TagManager:
   - Asteroid
   - Bullet
   - Boundary
+  - FieldOfView
+  - ShootView
   layers:
   - Default
   - TransparentFX
@@ -41,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: fieldView
+    uniqueID: 2138236381
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
