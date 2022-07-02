@@ -11,8 +11,9 @@ desiredPath(X,Y) :- target(X1,Y1), playerPosition(X2,Y2), X=X1-X2, Y=Y1-Y2.
 
 
 applyAction(0,"FireAction").
-actionArgument(T,"desiredPathX",X) :- applyAction(T,_), desiredPath(X,_).
-actionArgument(T,"desiredPathY",Y) :- applyAction(T,_), desiredPath(_,Y).
+actionArgument(0,"desiredPathX",X) :- applyAction(0,"FireAction"), desiredPath(X,_).
+actionArgument(0,"desiredPathY",Y) :- applyAction(0,"FireAction"), desiredPath(_,Y).
+actionArgument(0,"targetX",X) :- applyAction(0,"FireAction"), target(X,_).
 
 %For ASP programs:
 % Predicates for Action invokation.

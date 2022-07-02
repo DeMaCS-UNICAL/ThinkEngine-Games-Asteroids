@@ -58,6 +58,7 @@ public class Player : MonoBehaviour
         if (isTimeToShoot)
         {
             Shoot();
+            rigidbody.angularVelocity = 0;
             isTimeToShoot = false;
         }
         velocityX = (int)(rigidbody.velocity.x * 1000);

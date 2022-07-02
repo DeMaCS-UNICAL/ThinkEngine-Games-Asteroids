@@ -8,7 +8,7 @@ public class BulletPath : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Asteroid"))
         {
-            myPlayer.turnDirection = 0f;
+            myPlayer.rigidbody.angularVelocity = 0;
             myPlayer.isTimeToShoot = true;
             //myPlayer.Shoot();
         }

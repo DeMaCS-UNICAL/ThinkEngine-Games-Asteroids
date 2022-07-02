@@ -20,6 +20,8 @@ using UnityEngine;
     bool firePlan()
     {
         Player player = FindObjectOfType<Player>();
+        if(player!=null)
+            Debug.Log("asteroids to shoot = " + player.asteroidsToShoot);
         if (player != null && player.asteroidsToShoot > 0)
         {
             return true;
