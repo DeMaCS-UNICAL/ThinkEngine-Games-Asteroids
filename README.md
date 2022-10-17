@@ -1,6 +1,6 @@
 # Asteroids (2D)
 
-This is a fork of the Asteroid Clone provided by [@zigurous] (https://github.com/zigurous),
+This is a fork of the Asteroid Clone provided by [@zigurous](https://github.com/zigurous),
 where the main character is driven by an AI programmed using the [ThinkEngine](https://github.com/DeMaCS-UNICAL/ThinkEngine) Unity plugin.
 The ASP encodings driving the player's brain can be found in the Assets/StreamingAssets folders.
 
